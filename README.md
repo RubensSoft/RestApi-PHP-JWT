@@ -55,6 +55,9 @@ Esto lo hago así, ya que la RestAPi solo recibe peticiones de un usuario que se
 Escribe tu servidor, base de datos, usuario y contraseña.
 $this->pdo = new PDO('mysql:host=SERVIDOR;dbname=NOMBRE_BASE_DATOS;charset=utf8', 'USUARIO_BASE_DATOS', 'CONTRASEÑA');
 
+-Edita el archivo inc/token.php, en la línea: 
+define('SERVER', "RUTA_SERVIDOR");
+escribir la ruta del servidor (http://localhost 0 https://webhosting.subdominio.com)
 
 
 ## Ejecutando las pruebas ⚙️
