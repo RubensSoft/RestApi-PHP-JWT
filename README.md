@@ -2,7 +2,7 @@
 
 API en PHP para recibir peticiones HTTP (GET,POST,PUT,DELETE) desde cualquier aplicación.
 
-Esta API es la que uso en mi proyecto para la aplicación "Runapp" y por lo tanto se puede simplificar quitando objetos y adaptar para usar en otro proyecto. Para más información de este proyecto ver: 
+Esta API es la que uso en mi proyecto para la aplicación "Runapp" y por lo tanto se puede simplificar quitando objetos y adaptar para usar en otros proyecto. Para más información de este proyecto ver: 
 https://tfgapp.000webhostapp.com
 
 
