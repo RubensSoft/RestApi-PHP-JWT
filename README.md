@@ -9,7 +9,7 @@ https://tfgapp.000webhostapp.com
 - GET Devuelve los datos en JSON.
 - POST,PUT,DELETE devuelven el identificador del objeto insertado, modificado o eliminado.
 - Permite subir imagenes, se almacenan en el servidor y se devuelven como texto base 64.
-- Uso de controladores y DAO, para separar el control de los datos del acceso.
+- Uso de controladores y DAO, para separar el control del acceso a los datos.
 - Uso de PDO (PHP) para usar consultas parametrizadas y aumentar la seguridad de la la base de datos a la que accede la RestApi.
 - Permite peticiones GET y POST con el método sobrecargado, debido a que la mayoria de hosting gratuitos sólo permiten peticiones GET y POST.
 - Uso una implementación de JWT (JSON Web Token) para generar un token cuando el usuario inicia sesión, este token será enviado al usuario y lo reenviará en cada petición, de esta forma podemos saber que usuario ha realizado cada petición. 
