@@ -33,7 +33,7 @@ Apache 2.4.41, MariaDB 10.4.6, PHP 7.1.32, phpMyAdmin 4.9.0.1, OpenSSL 1.0.2.
 
 Puedes realizar peticiones Get escribiendo directamente en la ruta del navegador,
 o instalar una extensión para Chrome como POSTMAN (https://www.getpostman.com/) para realizar peticiones HTTP.
-Obviamente, también puedes realizar las peticiones directamente desde la aplicación/es que usarán esta RestApi.
+Obviamente, también puedes realizar las peticiones directamente desde la aplicación/es que usarán ésta RestApi.
 Por ejemplo, desde una aplicación web puedes usar peticiones ajax usando JQuery, o desde una aplicación móvil Android
 puedes usar la librería Loopj.
 
