@@ -71,7 +71,7 @@ Para el pforesor (administrador) no he realizado el posible get para comprobar s
 
 
 Iniciar Sesión usando POSTMAN
-https://raw.githubusercontent.com/rubenssogt/restapi-php-jwt/master/imagenesReadme/post inicio sesion.png
+https://raw.githubusercontent.com/rubenssogt/restapi-php-jwt/master/imagenesReadme/post%20inicio%20sesion.png
 
 
 
