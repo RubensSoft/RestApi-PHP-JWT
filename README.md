@@ -71,6 +71,10 @@ Para el pforesor (administrador) no he realizado el posible get para comprobar s
 
 
 Iniciar Sesión usando POSTMAN
+https://raw.githubusercontent.com/rubenssogt/restapi-php-jwt/master/imagenesReadme/post inicio sesion.png
+
+
+
 
 Realizar una petición con el token recibido
 
