@@ -63,17 +63,8 @@ Para realizar una petición sencilla y obtener el resultado, podemos escrbir en 
 localhost/restapi/v1/profesor/admin y veremos el resultado: 
 {"error":"401","mensaje":"El token no es válido, vuelve a iniciar sesión."}
 
-
-NOTA ADICIONAL:
-Auque anteriormente he mencionado que no es posible realizar ninguna petición sin iniciar sesión, existe una única petición que se puede realizar, el GET de alumnos, para comprobar si el alumno existe en el sistema a la hora de registrar un nuevo alumno.
-Ejemplo de petición Get de alumno: localhost/restapi/v1/alumno/correo
-Para el pforesor (administrador) no he realizado el posible get para comprobar si existe. 
-
-
 Iniciar Sesión usando POSTMAN
-https://raw.githubusercontent.com/rubenssogt/restapi-php-jwt/master/imagenesReadme/post%20inicio%20sesion.png
-
-
+https://github.com/RubensSoft/RestApi-PHP-JWT/blob/master/imagenesReadme/post%20inicio%20sesion.png
 
 
 Realizar una petición con el token recibido
