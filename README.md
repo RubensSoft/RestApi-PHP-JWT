@@ -1,10 +1,7 @@
 # RestApi-PHP-JWT
 
 API en PHP para recibir peticiones HTTP (GET,POST,PUT,DELETE) desde cualquier aplicación.
-
-Esta API es la que uso en mi proyecto para la aplicación "Runapp" y por lo tanto se puede simplificar quitando objetos y adaptar para usar en otros proyecto. Para más información de este proyecto ver: 
-https://tfgapp.000webhostapp.com
-
+A modo de ejemplo solo se incluye un objeto en la base de datos. 
 
 - GET Devuelve los datos en JSON.
 - POST,PUT,DELETE devuelven el identificador del objeto insertado, modificado o eliminado.
@@ -37,6 +34,7 @@ Obviamente, también puedes realizar las peticiones directamente desde la aplica
 Por ejemplo, desde una aplicación web puedes usar peticiones ajax usando JQuery, o desde una aplicación móvil Android
 puedes usar la librería Loopj.
 
+La implementación de JWT (https://github.com/firebase/php-jwt).
 
 
 ### Instalación 🔧
@@ -57,6 +55,7 @@ $this->pdo = new PDO('mysql:host=SERVIDOR;dbname=NOMBRE_BASE_DATOS;charset=utf8'
 define('SERVER', "RUTA_SERVIDOR");
 escribir la ruta del servidor (http://localhost 0 https://webhosting.subdominio.com)
 
+- Descargar el proyecto php-jwt y copialo en tu htdocs/public_html.
 
 ## Ejecutando las pruebas ⚙️
 
@@ -64,17 +63,11 @@ Para realizar una petición sencilla y obtener el resultado, podemos escrbir en 
 localhost/restapi/v1/profesor/admin y veremos el resultado: 
 {"error":"401","mensaje":"El token no es válido, vuelve a iniciar sesión."}
 
-
-NOTA ADICIONAL:
-Auque anteriormente he mencionado que no es posible realizar ninguna petición sin iniciar sesión, existe una única petición que se puede realizar, el GET de alumnos, para comprobar si el alumno existe en el sistema a la hora de registrar un nuevo alumno.
-Ejemplo de petición Get de alumno: localhost/restapi/v1/alumno/correo
-Para el pforesor (administrador) no he realizado el posible get para comprobar si existe. 
-
-
 Iniciar Sesión usando POSTMAN
+![alt text](https://raw.githubusercontent.com/RubensSoft/RestApi-PHP-JWT/master/imagenesReadme/post%20inicio%20sesion.png)
 
 Realizar una petición con el token recibido
-
+![alt text](https://raw.githubusercontent.com/RubensSoft/RestApi-PHP-JWT/master/imagenesReadme/peticion%20get%20enviando%20token.png)
 
 
 
@@ -83,8 +76,8 @@ Realizar una petición con el token recibido
 Para desplegar este proyecto, podemos subirlo a un hosting y usarlo desde ahí en lugar de en local.
 Debemos crear la base de datos en el hosting y, al igual que en local, cambiar en el archivo database.php los datos del servidor, nombre de la base de datos, usuario y clave.
 Normalmente, el hoting nos crea un usuario ftp para subir los archivos al servidor.
-
 Una vez subido podemos usar de nuevo POTMAN.
+Hay que recordar que muchos hosting solo permiten peticiones GET y POST, pero podemos sobrecargar estos métodos. 
 
 
 ## Construido con 🛠️
