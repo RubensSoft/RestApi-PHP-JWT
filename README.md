@@ -64,11 +64,10 @@ localhost/restapi/v1/profesor/admin y veremos el resultado:
 {"error":"401","mensaje":"El token no es válido, vuelve a iniciar sesión."}
 
 Iniciar Sesión usando POSTMAN
-https://github.com/RubensSoft/RestApi-PHP-JWT/blob/master/imagenesReadme/post%20inicio%20sesion.png
-
+https://raw.githubusercontent.com/RubensSoft/RestApi-PHP-JWT/master/imagenesReadme/post%20inicio%20sesion.png
 
 Realizar una petición con el token recibido
-
+https://raw.githubusercontent.com/RubensSoft/RestApi-PHP-JWT/master/imagenesReadme/peticion%20get%20enviando%20token.png
 
 
 
